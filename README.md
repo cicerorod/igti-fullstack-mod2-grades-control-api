@@ -1,0 +1,115 @@
+# Controle de grade de alunos via API RestFull
+
+Aplicalção para disponibilizar via API RestFull as informaçõs de grades de estudos de alunos
+desenvolvido no bootcamp fullstack da IGTI
+
+## <img src="https://img.icons8.com/ios-filled/20/000000/browser-window.png"/> Página
+
+<p align="center">
+  <img src="https://github.com/cicerorod/igti-fullstack-mod2-grades-control-api/blob/master/img/tela.PNG">
+</p>
+
+<!--
+## ![](https://img.icons8.com/ios-glyphs/20/000000/api.png)  API
+
+`<link>` : <https://randomuser.me/api/?seed=javascript&results=100&nat=BR&noinfo> -->
+
+## ![](https://img.icons8.com/metro/20/000000/run-command.png) Execução
+
+1. Clonar o projeto em uma pasta de sua preferência: `git clone https://github.com/cicerorod/igti-fullstack-mod2-grades-control-api.git`
+2. Acessar a pasta principal do projeto via prompt de comando;
+3. Executar o comando `yarn` para baixar as dependências;
+4. Executar o comando `yarn start`
+5. Acessar o endereço `http://localhost:7000` conforme rotas definidos no item rotas
+
+### ![](https://img.icons8.com/metro/20/000000/run-command.png) Rotas
+
+#### `/grade/`
+
+HTTP GET solicitação que retorna uma resposta JSON contendo as grades cadastradas.
+
+##### Solicitação GET: `Get` -> `http://localhost:7000/grades/`
+
+##### Exemplo de retorno:
+
+```json
+{
+  "nextId": 49,
+  "grades": [
+    {
+      "id": 1,
+      "student": "Loiane Groner",
+      "subject": "01 - JavaScript",
+      "type": "Fórum",
+      "value": 15,
+      "timestamp": "2020-05-19T18:21:24.958Z"
+    },
+    {
+      "id": 2,
+      "student": "Loiane Groner",
+      "subject": "02 - Node",
+      "type": "Fórum",
+      "value": 5,
+      "timestamp": "2020-05-19T18:21:24.964Z"
+    }
+}
+```
+
+#### `/grade/`
+
+HTTP POST para inserção de registros. O formato da solicitação é JSON.
+
+##### Solicitação Post: `Post` -> `http://localhost:7000/grades/`
+
+##### Exemplo de parametro para o metódo put
+
+```json
+{
+  "student": "Roberto Achar",
+  "subject": "03 - React",
+  "type": "Fórum",
+  "value": 10
+}
+```
+
+##### Exemplo de retorno:
+
+```Json
+{
+  "id": 49,
+  "student": "Roberto Achar",
+  "subject": "03 - React",
+  "type": "Fórum",
+  "value": 10,
+  "timestamp": "2020-06-07T07:11:14.000Z"
+}
+```
+
+<!-- :hammer:-->
+
+## ![](https://img.icons8.com/ios-filled/20/000000/hammer.png) Bibliotecas e tecnologias utilizadas:
+
+- **[Json](https://www.w3schools.com/js/js_json_intro.asp)**
+- **[Express]()**
+- **[ES6+](https://www.w3schools.com/Js/js_es6.asp)**
+- **[Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=hackingcarreira_wmc-github-gllemos)**
+
+## ![](https://img.icons8.com/ios-glyphs/20/000000/pull-request.png) Contribuições
+
+1. Faça o _fork_ do projeto (<https://github.com/cicerorod/igti-fullstack-mod1-pesquisa-de-usuarios-api/fork>)
+2. Crie uma _branch_ para sua modificação (`git checkout -b feature/[nome]`)
+3. Faça o _commit_ (`git commit -am 'Add files [nome]'`)
+4. _Push_ (`git push origin feature/[nome]`)
+5. Crie um novo _Pull Request_
+
+## ![](https://img.icons8.com/ios-glyphs/22/000000/code-file.png) Desenvolvedor
+
+<img src="https://avatars.githubusercontent.com/cicerorod" width=115>
+
+[![](https://img.icons8.com/fluent/30/000000/github.png)](https://github.com/cicerorod)
+[![](https://img.icons8.com/metro/25/000000/linkedin.png)](https://www.linkedin.com/in/c%C3%ADcero-rodrigues-89623784/)
+[![](https://img.icons8.com/metro/25/000000/facebook.png)](https://www.facebook.com/cicero.rodrigues.90834)
+[![](https://img.icons8.com/material-rounded/29/000000/instagram-new.png)](https://www.instagram.com/cicero_rod/)
+[![](https://img.icons8.com/metro/26/000000/email.png)](mailto:cicerorod@gmail.com)
+
+<a href="https://icons8.com/">icon by Icons8</a>
