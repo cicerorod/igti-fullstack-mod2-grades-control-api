@@ -138,7 +138,38 @@ Nota Total: 60
 
 ```
 
+#### `/grade/media/`
 
+HTTP GET solicitação que retorna a média referente aos parâmetros `Subject` e `type` pesquisados.
+
+##### `GET`: `http://localhost:7000/grades/notatotal/"Subject"/"Type"`
+
+##### Exemplo: `http://localhost:7000/grades/media/04 - MongoDB/Trabalho Prático`
+
+##### Exemplo de retorno:
+
+```html
+Subject: 04 - MongoDB -> Type: Trabalho Prático -> Value: 30
+Subject: 04 - MongoDB -> Type: Trabalho Prático -> Value: 20
+Subject: 04 - MongoDB -> Type: Trabalho Prático -> Value: 16
+Subject: 04 - MongoDB -> Type: Trabalho Prático -> Value: 28
+
+Nota Total: 23.5
+```
+DEL  - grades     http://localhost:7000/grades/id
+#### `/grade/id`
+
+HTTP DEL, solicitação para excluir um registro referente ao `id`.
+
+##### `DEL`: `http://localhost:7000/grades/id`
+
+##### Exemplo: `http://localhost:7000/grades/4`
+
+##### Exemplo de retorno:
+
+```Request
+200OK
+```
 
 #### `/grade/`
 
