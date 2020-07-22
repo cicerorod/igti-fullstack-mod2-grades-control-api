@@ -215,7 +215,7 @@ HTTP POST para inserção de registros. O formato da solicitação é JSON.
 
 ## ![](https://img.icons8.com/ios-glyphs/20/000000/pull-request.png) Contribuições
 
-1. Faça o _fork_ do projeto (<https://github.com/cicerorod/igti-fullstack-mod1-pesquisa-de-usuarios-api/fork>)
+1. Faça o _fork_ do projeto (<https://github.com/cicerorod/igti-fullstack-mod2-grades-control-api/fork>)
 2. Crie uma _branch_ para sua modificação (`git checkout -b feature/[nome]`)
 3. Faça o _commit_ (`git commit -am 'Add files [nome]'`)
 4. _Push_ (`git push origin feature/[nome]`)
@@ -238,3 +238,7 @@ HTTP POST para inserção de registros. O formato da solicitação é JSON.
   <a href="https://icons8.com/icon/">Icons by Icons8</a>
   
 </p>
+
+
+
+[repo]igti-fullstack-mod2-grades-control-api
