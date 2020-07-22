@@ -27,7 +27,7 @@ Aplicação para disponibilizar via API RestFull as informações de grades de e
 
 HTTP GET solicitação que retorna uma resposta JSON contendo as grades cadastradas.
 
-##### `GET`: URL -> `http://localhost:7000/grades/`
+##### `GET`: `http://localhost:7000/grades/`
 
 ##### Exemplo de retorno:
 
@@ -58,7 +58,7 @@ HTTP GET solicitação que retorna uma resposta JSON contendo as grades cadastra
 
 HTTP GET solicitação que retorna uma resposta JSON contendo as informações do `id` pesquisado.
 
-##### `GET`: URL -> `http://localhost:7000/grades/id`
+##### `GET`: `http://localhost:7000/grades/id`
 
 ##### Exemplo: `http://localhost:7000/grades/49`
 
@@ -78,15 +78,50 @@ HTTP GET solicitação que retorna uma resposta JSON contendo as informações d
     }
 }
 ```
+#### `/grade/student/`
 
+HTTP GET solicitação que retorna uma resposta JSON contendo todas informações do `student` pesquisado.
 
+##### `GET`: `http://localhost:7000/grades/student/NameStudent`
 
+##### Exemplo: `http://localhost:7000/grades/student/Roberto Achar`
+
+##### Exemplo de retorno:
+
+```json
+[
+  {
+    "id": 25,
+    "student": "Roberto Achar",
+    "subject": "01 - JavaScript",
+    "type": "Fórum",
+    "value": 9,
+    "timestamp": "2020-05-19T18:21:25.113Z"
+  },
+  {
+    "id": 26,
+    "student": "Roberto Achar",
+    "subject": "02 - Node",
+    "type": "Fórum",
+    "value": 17,
+    "timestamp": "2020-05-19T18:21:25.128Z"
+  },
+  {
+    "id": 27,
+    "student": "Roberto Achar",
+    "subject": "03 - React",
+    "type": "Fórum",
+    "value": 10,
+    "timestamp": "2020-05-19T18:21:25.140Z"
+  }
+ ]
+  ```
 
 #### `/grade/`
 
 HTTP POST para inserção de registros. O formato da solicitação é JSON.
 
-##### `Post`: URL -> `http://localhost:7000/grades/`
+##### `Post`: `http://localhost:7000/grades/`
 
 ##### Exemplo de parâmetro:
 
