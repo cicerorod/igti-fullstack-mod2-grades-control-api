@@ -1,7 +1,6 @@
 # Controle de grade de alunos via API RestFull
 
-Aplicalção para disponibilizar via API RestFull as informaçõs de grades de estudos de alunos
-desenvolvido no bootcamp fullstack da IGTI
+Aplicação para disponibilizar via API RestFull as informações de grades de estudos de alunos desenvolvido no bootcamp fullstack da IGTI
 
 ## <img src="https://img.icons8.com/ios-filled/20/000000/browser-window.png"/> Página
 
@@ -28,7 +27,7 @@ desenvolvido no bootcamp fullstack da IGTI
 
 HTTP GET solicitação que retorna uma resposta JSON contendo as grades cadastradas.
 
-##### Solicitação GET: `Get` -> `http://localhost:7000/grades/`
+##### `GET`: URL -> `http://localhost:7000/grades/`
 
 ##### Exemplo de retorno:
 
@@ -55,13 +54,41 @@ HTTP GET solicitação que retorna uma resposta JSON contendo as grades cadastra
 }
 ```
 
+#### `/grade/id`
+
+HTTP GET solicitação que retorna uma resposta JSON contendo as informações do `id` pesquisado.
+
+##### `GET`: URL -> `http://localhost:7000/grades/id`
+
+##### Exemplo: `http://localhost:7000/grades/49`
+
+##### Exemplo de retorno:
+
+```json
+{
+  "nextId": 49,
+  "grades": [
+    {
+      "id": 1,
+      "student": "Loiane Groner",
+      "subject": "01 - JavaScript",
+      "type": "Fórum",
+      "value": 15,
+      "timestamp": "2020-05-19T18:21:24.958Z"
+    }
+}
+```
+
+
+
+
 #### `/grade/`
 
 HTTP POST para inserção de registros. O formato da solicitação é JSON.
 
-##### Solicitação Post: `Post` -> `http://localhost:7000/grades/`
+##### `Post`: URL -> `http://localhost:7000/grades/`
 
-##### Exemplo de parametro para o metódo put
+##### Exemplo de parâmetro:
 
 ```json
 {
@@ -84,6 +111,7 @@ HTTP POST para inserção de registros. O formato da solicitação é JSON.
   "timestamp": "2020-06-07T07:11:14.000Z"
 }
 ```
+
 
 <!-- :hammer:-->
 
