@@ -231,8 +231,8 @@ HTTP POST para inserção de registros. O formato da solicitação é JSON.
 [![](https://img.icons8.com/material-rounded/29/000000/instagram-new.png)](https://www.instagram.com/cicero_rod/)
 [![](https://img.icons8.com/metro/26/000000/email.png)](mailto:cicerorod@gmail.com)
 
-<p align="center"
-[![](https://img.icons8.com/wired/64/000000/icons8-new-logo.png)](https://icons8.com/)
+<p align="center">
+  [![](https://img.icons8.com/wired/64/000000/icons8-new-logo.png)](https://icons8.com/)
 </p>
 
 <p align="center">
