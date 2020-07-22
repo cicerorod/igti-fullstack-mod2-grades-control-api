@@ -204,7 +204,7 @@ HTTP POST para inserção de registros. O formato da solicitação é JSON.
 
 <!-- :hammer:-->
 
-## ![](https://img.icons8.com/ios-filled/20/000000/hammer.png) Bibliotecas e tecnologias utilizadas:
+## ![](https://img.icons8.com/ios-filled/20/000000/hammer.png) Recursos utilizados:
 
 
 - **[NodeJS](https://nodejs.org/en/)**
