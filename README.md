@@ -1,4 +1,4 @@
-# Controle de grade de alunos via API RestFull
+# Controle de grade de alunos via API RestFull         ![Badge](https://img.shields.io/badge/Status-Conclu%C3%ADdo-green)
 
 Aplicação para disponibilizar via API RestFull as informações de grades de estudos de alunos desenvolvido no bootcamp fullstack da IGTI
 
@@ -221,6 +221,11 @@ HTTP POST para inserção de registros. O formato da solicitação é JSON.
 4. _Push_ (`git push origin feature/[nome]`)
 5. Crie um novo _Pull Request_
 
+## ![](https://img.icons8.com/windows/20/000000/regular-document.png) Licença
+
+Este projeto está sob a licença do MIT. Consulte [LICENSE](https://github.com/cicerorod/igti-fullstack-mod2-grades-control-api/blob/master/LICENSE) para obter mais informações.
+
+
 ## ![](https://img.icons8.com/ios-glyphs/22/000000/code-file.png) Desenvolvedor
 
 <img src="https://avatars.githubusercontent.com/cicerorod" width=115>
@@ -232,13 +237,10 @@ HTTP POST para inserção de registros. O formato da solicitação é JSON.
 [![](https://img.icons8.com/metro/26/000000/email.png)](mailto:cicerorod@gmail.com)
 
 
+
 <p align="center">
   <img src="https://img.icons8.com/wired/32/000000/icons8-new-logo.png" >
   </br>
   <a href="https://icons8.com/icon/">Icons by Icons8</a>
   
 </p>
-
-
-
-[repo]igti-fullstack-mod2-grades-control-api
