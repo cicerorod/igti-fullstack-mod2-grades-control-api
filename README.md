@@ -51,7 +51,7 @@ HTTP GET solicitação que retorna uma resposta JSON contendo as grades cadastra
       "value": 5,
       "timestamp": "2020-05-19T18:21:24.964Z"
     }
-}
+}   
 ```
 
 #### `/grade/id`
