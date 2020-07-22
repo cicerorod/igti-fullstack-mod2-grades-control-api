@@ -156,7 +156,7 @@ Subject: 04 - MongoDB -> Type: Trabalho Prático -> Value: 28
 
 Nota Total: 23.5
 ```
-DEL  - grades     http://localhost:7000/grades/id
+
 #### `/grade/id`
 
 HTTP DEL, solicitação para excluir um registro referente ao `id`.
@@ -206,9 +206,10 @@ HTTP POST para inserção de registros. O formato da solicitação é JSON.
 
 ## ![](https://img.icons8.com/ios-filled/20/000000/hammer.png) Bibliotecas e tecnologias utilizadas:
 
+
+- **[NodeJS](https://nodejs.org/en/)**
 - **[Json](https://www.w3schools.com/js/js_json_intro.asp)**
-- **[Express]()**
-- **[ES6+](https://www.w3schools.com/Js/js_es6.asp)**
+- **[Express](http://expressjs.com/)**
 - **[Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=hackingcarreira_wmc-github-gllemos)**
 
 ## ![](https://img.icons8.com/ios-glyphs/20/000000/pull-request.png) Contribuições
