@@ -2,7 +2,7 @@
 
 Aplicação para disponibilizar via API RestFull as informações de grades de estudos de alunos desenvolvido no bootcamp fullstack da IGTI
 
-## <img src="https://img.icons8.com/ios-filled/20/000000/browser-window.png"/> Página
+## <img src="https://img.icons8.com/ios-filled/20/000000/browser-window.png"/> Insomnia
 
 <p align="center">
   <img src="https://github.com/cicerorod/igti-fullstack-mod2-grades-control-api/blob/master/img/tela.PNG">
@@ -210,6 +210,7 @@ HTTP POST para inserção de registros. O formato da solicitação é JSON.
 - **[NodeJS](https://nodejs.org/en/)**
 - **[Json](https://www.w3schools.com/js/js_json_intro.asp)**
 - **[Express](http://expressjs.com/)**
+- **[Insomnia](https://insomnia.rest/download/)**
 - **[Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=hackingcarreira_wmc-github-gllemos)**
 
 ## ![](https://img.icons8.com/ios-glyphs/20/000000/pull-request.png) Contribuições
@@ -231,6 +232,9 @@ HTTP POST para inserção de registros. O formato da solicitação é JSON.
 [![](https://img.icons8.com/metro/26/000000/email.png)](mailto:cicerorod@gmail.com)
 
 <p align="center">
-  [![](https://img.icons8.com/wired/64/000000/icons8-new-logo.png)](https://icons8.com/ "icon by Icons8")
   <!--<a href="https://icons8.com/">icon by Icons8</a>-->
+  
+  [![](https://img.icons8.com/wired/64/000000/icons8-new-logo.png)](https://icons8.com/ "icon by Icons8")
+  
+  
 </p>
