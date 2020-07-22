@@ -235,6 +235,6 @@ HTTP POST para inserção de registros. O formato da solicitação é JSON.
 <p align="center">
   <img src="https://img.icons8.com/wired/32/000000/icons8-new-logo.png" >
   </br>
-  <a href="https://icons8.com/icon/">Icons8 icon by Icons8</a>
+  <a href="https://icons8.com/icon/">Icons by Icons8</a>
   
 </p>
