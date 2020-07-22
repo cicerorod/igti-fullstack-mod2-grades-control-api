@@ -117,6 +117,29 @@ HTTP GET solicitação que retorna uma resposta JSON contendo todas informaçõe
  ]
   ```
 
+#### `/grade/notatotal/`
+
+HTTP GET solicitação que retorna a nota total referente aos parâmetros `Student` e `type` pesquisados.
+
+##### `GET`: `http://localhost:7000/grades/notatotal/"Student"/"Type"`
+
+##### Exemplo: `http://localhost:7000/grades/notatotal/Roberto Achar/03 - React`
+
+##### Exemplo de retorno:
+
+```html
+
+Student : Roberto Achar
+Subject: 03 - React -> Type: Fórum -> Value: 10
+Subject: 03 - React -> Type: Trabalho Prático -> Value: 27
+Subject: 03 - React -> Type: Desafio -> Value: 23
+
+Nota Total: 60
+
+```
+
+
+
 #### `/grade/`
 
 HTTP POST para inserção de registros. O formato da solicitação é JSON.
