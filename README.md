@@ -13,13 +13,15 @@ Aplicação para disponibilizar via API RestFull as informações de grades de e
 
 `<link>` : <https://randomuser.me/api/?seed=javascript&results=100&nat=BR&noinfo> -->
 
+
 ## ![](https://img.icons8.com/metro/20/000000/run-command.png) Execução
 
-1. Clonar o projeto em uma pasta de sua preferência: `git clone https://github.com/cicerorod/igti-fullstack-mod2-grades-control-api.git`
-2. Acessar a pasta principal do projeto via prompt de comando;
-3. Executar o comando `yarn` para baixar as dependências;
-4. Executar o comando `yarn start`
+1. Clonar via prompt de comando o projeto em uma pasta de sua preferência: `git clone https://github.com/cicerorod/igti-fullstack-mod2-grades-control-api.git`
+2. Acessar a pasta principal do projeto via prompt de comando. Ex: `cd igti-fullstack-mod2-grades-control-api`;
+3. Executar o comando `yarn` para baixar as dependências. Ex: `yarn`;
+4. Executar o comando `yarn start`. Ex: `yarn start`
 5. Acessar o endereço `http://localhost:7000` conforme rotas definidos no item rotas
+
 
 ### ![](https://img.icons8.com/metro/20/000000/run-command.png) Rotas
 
